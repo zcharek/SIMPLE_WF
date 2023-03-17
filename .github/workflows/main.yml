@@ -1,0 +1,16 @@
+name: mon premier worflow
+on: push 
+jobs: 
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print 
+        run: echo "bonjour"
+      - name: print 
+        run: echo "comment ça va ?" 
+        
+  second-job:
+    runs-on: macOS
+    steps:
+      - name: print 
+        run: echo "Bien, merci."
